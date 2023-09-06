@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 08:41:18 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMDktMDU7MDg6MTU6NTYgcC4gbS47Mjg0OA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMDktMDU7MDg6NDE6MTggcC4gbS47OTsyOTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellido" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="domicilio" type="String" array="False" size=""/>
+            <declare name="servmed" type="Boolean" array="False" size=""/>
+            <declare name="promreal" type="Real" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tus apellidos:&quot;" newline="True"/>
+            <input variable="apellido"/>
+            <output expression="&quot;Introduce tu nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;Introduce tu domicilio&quot;" newline="True"/>
+            <input variable="domicilio"/>
+            <output expression="&quot;&#191;Tienes servicio m&#233;dico? true: s&#237;, false: no&quot;" newline="True"/>
+            <input variable="servmed"/>
+            <output expression="&quot;Introduce tu promedio real&quot;" newline="True"/>
+            <input variable="promreal"/>
+            <output expression="&quot;Introduce tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+        </body>
+    </function>
+</flowgorithm>
