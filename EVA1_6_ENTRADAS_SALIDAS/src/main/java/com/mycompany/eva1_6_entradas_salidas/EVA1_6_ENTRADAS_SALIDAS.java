@@ -3,18 +3,17 @@
  */
 
 package com.mycompany.eva1_6_entradas_salidas;
-
+import java.util.*;
+import java.lang.Math;
+import java.util.Scanner;
 /**
  *
  * @author jackdaniel
  */
-
-import java.util.*;
-import java.lang.Math;
 public class EVA1_6_ENTRADAS_SALIDAS {
-    private static Scanner captura = new Scanner(System.in);
+    private static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) {
-        
         //Declaración de variables
         String marca;
         String modelo;
@@ -23,16 +22,16 @@ public class EVA1_6_ENTRADAS_SALIDAS {
 
         //Asignación de variables
         System.out.println("¿Qué marca es tu carro?");
-        marca = captura.nextLine();
+        marca = input.nextLine();
 
         System.out.println("¿Qué modelo es?");
-        modelo = captura.nextLine();
+        modelo = input.nextLine();
 
         System.out.println("¿De qué año es?");
-        anio = captura.nextint();
+        anio = input.nextInt();
 
         System.out.println("¿Cuánto costó?");
-        precio = captura.nextDouble();
+        precio = (int) input.nextDouble();
 
         //Muestra de datos al usuario
         System.out.println("Marca: " + marca);
