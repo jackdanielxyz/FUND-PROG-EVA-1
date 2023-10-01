@@ -1,6 +1,5 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
-
 public class Problema3 {
     /*
     Construir un programa que permita calcular el número de metros cúbicos de agua que fluyen por una tubería:

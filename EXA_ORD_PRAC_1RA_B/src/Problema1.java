@@ -12,12 +12,14 @@ public class Problema1 {
     public static void main (String[] args){
         String nEquipo = "Froyo\n";
         String nPFinal = "Password Manager\n";
-        String nInteg = "Daniel Eduardo Perez Jaquez\n" +
-                        "Raul Eduardo Ornelas Munoz\n" +
-                        "Roberto Jair Guzman Chairez\n" +
-                        "Noel Fernando Aguilar Chaparro";
+        String nInteg = """
+                Daniel Eduardo Perez Jaquez
+                Raul Eduardo Ornelas Munoz
+                Roberto Jair Guzman Chairez
+                Noel Fernando Aguilar Chaparro""";
 
         System.out.println("Nombre de Equipo: " + nEquipo + "Proyecto: " +
                             nPFinal + "Integrantes: " + nInteg);
+
     }
 }
