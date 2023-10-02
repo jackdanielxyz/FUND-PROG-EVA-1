@@ -2,6 +2,18 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Problema6 {
+    /*
+    Construir un programa que trabaje con el movimiento angular de una rueda. Investigar las fórmulas.
+    • El programa deberá preguntar al usuario la velocidad inicial angular, la velocidad angular final (en radianes/s)
+    y el tiempo de rotación (en segundos), junto con el radio de la rueda en metros.
+    Este capturará los datos desde el teclado.
+    • Calcular:
+        o Distancia angular recorrida.
+        o Distancia en metros recorrida.
+        o Velocidad angular promedio recorrida. o Velocidad en m/s promedio recorrida. o Aceleración angular.
+        o Aceleración en m/s2.
+        o Frecuencia de giro (en Hertz).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
